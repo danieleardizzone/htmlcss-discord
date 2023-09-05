@@ -38,19 +38,14 @@ img{
     flex-grow: 1;
 }
 
-.col-10{
-    min-height: 400px;
-    flex-basis: calc((100% / 12) * 10);
-}
-
 .col-7{
     min-height: 400px;
     flex-basis: calc((100% / 12) * 7);
 }
 
-.col-5{
+.col-8{
     min-height: 400px;
-    flex-basis: calc((100% / 12) * 5);
+    flex-basis: calc((100% / 12) * 8);
 }
 
 .fifth-section .col-12{
@@ -61,6 +56,9 @@ img{
 .col-4{
     min-height: 400px;
     flex-basis: calc((100% / 12) * 4);
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .col-2{
@@ -89,7 +87,7 @@ img{
     align-items: center;
 }
 
-/*stile*/
+/*style*/
 
 header{
     background-color: #4F78E9;
@@ -100,7 +98,7 @@ button{
     display: inline-block;
     border: none;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 18px;
     padding: 0.7em;
 }
 
@@ -115,10 +113,11 @@ button{
     background-size: cover;
     color: white;
     line-height: 2em;
+    margin-bottom: 50px;
 }
 
 h1{
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: -60px;
 }
 
@@ -129,10 +128,40 @@ h1{
     text-align: center;
 }
 
+#hero-wbutton{
+    margin-right: 10px;
+}
+
+#hero-bbutton{
+    margin-left: 10px;
+    color: white;
+    background-color: #23272A;
+}
+
+.second-section, 
+.third-section, 
+.fourth-section{
+    margin-bottom: 100px;
+}
+
+.third-section{
+    background-color: ;
+}
+
+h2{
+    font-size: 36px;
+}
+
+
+.debug .third-section,
+.debug .fifth-section{
+    background-color: #D3D3D3;
+}
+
 /*debug*/
 
 .debug .row{
-    padding: 20px;
+    padding: 10px;
 }
 
 .debug .column{
@@ -172,11 +201,6 @@ h1{
 .debug .col-5{
     background-color: #FFC0CB;
     padding: 20px;
-}
-
-.debug .third-section,
-.debug .fifth-section{
-    background-color: #D3D3D3;
 }
 
 .debug .fifth-section .col-12{
