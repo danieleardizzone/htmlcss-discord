@@ -51,6 +51,10 @@ img{
 .fifth-section .col-12{
     min-height: 600px;
     flex-basis: calc((100% / 12) * 12);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .col-4{
@@ -128,11 +132,11 @@ h1{
     text-align: center;
 }
 
-#hero-wbutton{
+#white-button{
     margin-right: 10px;
 }
 
-#hero-bbutton{
+#black-button{
     margin-left: 10px;
     color: white;
     background-color: #23272A;
@@ -144,18 +148,32 @@ h1{
     margin-bottom: 100px;
 }
 
-.third-section{
-    background-color: ;
+.second-section .column, 
+.third-section .column, 
+.fourth-section .column,
+.fifth-section .column{
+    padding: 100px 0;
 }
 
 h2{
     font-size: 36px;
 }
 
-
-.debug .third-section,
-.debug .fifth-section{
+.third-section,
+.fifth-section{
     background-color: #D3D3D3;
+}
+
+h4{
+    font-size: 20px;
+    line-height: 4em;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+}
+
+#gray-button{
+    background-color: #8EA1E1;
+    color: white;
 }
 
 /*debug*/
