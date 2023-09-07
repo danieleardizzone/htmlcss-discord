@@ -102,8 +102,9 @@ button{
     display: inline-block;
     border: none;
     background-color: white;
-    border-radius: 18px;
-    padding: 0.7em;
+    border-radius: 900px;
+    line-height: 40px;
+    padding: 0 20px
 }
 
 .link{
@@ -174,6 +175,36 @@ h4{
 #gray-button{
     background-color: #8EA1E1;
     color: white;
+}
+
+.page-footer{
+    color: white;
+}
+
+.footer_title{
+    color: #7289DA;
+    font-weight: 700;
+}
+
+.col-4 .footer_title{
+    padding-bottom: 10px;
+}
+
+.language{
+    padding: 0 35px;
+    background-image: url(../img/ita.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.icons{
+font-size: 20px;
+padding-top: 10px;
+}
+
+.page-footer ul{
+    list-style: none;
 }
 
 /*debug*/
@@ -248,3 +279,4 @@ h4{
     background-color: #FFB6C1;
     padding: 10px;
 }
+
