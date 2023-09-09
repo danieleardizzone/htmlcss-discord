@@ -82,14 +82,12 @@ img{
     min-height: 400px;
 }
 
-.big-box_second-section_footer{
-    min-height: 70px;
-}
-
 .second-section_footer{
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 /*style*/
 
@@ -172,7 +170,7 @@ h4{
     background-repeat: no-repeat;
 }
 
-#gray-button{
+.gray-button{
     background-color: #8EA1E1;
     color: white;
 }
@@ -206,6 +204,33 @@ padding-top: 10px;
 .page-footer ul{
     list-style: none;
 }
+
+.page-footer .row{
+    align-items: baseline;
+}
+
+.page-footer .col-2{
+    line-height: 2em;
+}
+
+.page-footer .border-bottom{
+    border-bottom: 1px solid #7289DA;
+}
+
+.second-section_footer{
+    padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*debug*/
 
